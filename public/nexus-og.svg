@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#080A09" />
+  <defs>
+    <radialGradient id="og-glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#B7FF72" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#36D98A" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#080A09" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid-pattern" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#293129" stroke-width="1" opacity="0.4" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid-pattern)" />
+  <rect width="1200" height="630" fill="url(#og-glow)" />
+
+  <!-- Geometric Logo in Center Top -->
+  <g transform="translate(540, 110)">
+    <rect width="120" height="120" rx="24" fill="#101310" stroke="#293129" stroke-width="2" />
+    <polygon points="60,20 100,43 100,88 60,111 20,88 20,43" fill="none" stroke="#B7FF72" stroke-width="5" />
+    <circle cx="60" cy="65" r="14" fill="#36D98A" />
+    <line x1="60" y1="20" x2="60" y2="51" stroke="#B7FF72" stroke-width="4" />
+    <line x1="100" y1="88" x2="72" y2="72" stroke="#B7FF72" stroke-width="4" />
+    <line x1="20" y1="88" x2="48" y2="72" stroke="#B7FF72" stroke-width="4" />
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="600" y="300" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="58" font-weight="700" fill="#F4F7F1" letter-spacing="4">
+    NEXUS
+  </text>
+  <text x="600" y="340" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" fill="#B7FF72" letter-spacing="8">
+    DIGITAL TOOLS
+  </text>
+  
+  <text x="600" y="420" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="500" fill="#9AA49A">
+    "The internet, a little more useful."
+  </text>
+
+  <text x="600" y="480" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" fill="#647064">
+    Chrome Extensions &amp; Digital Software Built by Dheeraj Reddy
+  </text>
+
+  <!-- Bottom Pills -->
+  <g transform="translate(360, 530)">
+    <rect width="140" height="36" rx="18" fill="#141814" stroke="#293129" />
+    <text x="70" y="23" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#B7FF72">NewTab</text>
+
+    <rect x="160" width="170" height="36" rx="18" fill="#141814" stroke="#36D98A" />
+    <text x="245" y="23" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#F4F7F1">Student Dashboard</text>
+
+    <rect x="350" width="130" height="36" rx="18" fill="#141814" stroke="#293129" />
+    <text x="415" y="23" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#B7FF72">Aether QR</text>
+  </g>
+</svg>
